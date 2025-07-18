@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+spam_api_venv/
+spam_venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Jupyter and IDE configs
+.ipynb_checkpoints/
+.vscode/
+
+# Logs
+*.log
+
+# Model artifacts (optional, see notes above)
+spam_model.h5
+vectorizer.pkl
+
+# CSV files (optional, if reproducible elsewhere)
+*.csv
